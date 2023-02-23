@@ -1,10 +1,24 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+
+
+    <!-- 这个是IE8及以下版本使用的JO版本 -->
+    <!--[if lte IE 8]>
+         <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <![endif]-->
+
+    <!-- Polyfills -->
+    <!--[if lt IE 10]>
+        <script src="https://as.alipayobjects.com/g/component/??console-polyfill/0.2.2/index.js,es5-shim/4.5.7/es5-shim.min.js,es5-shim/4.5.7/es5-sham.min.js,html5shiv/3.7.2/html5shiv.min.js,media-match/2.0.2/media.match.min.js"></script>
+    <![endif]-->
 </head>
+
 <body>
-<div id="app"></div>
+    <div id="app"></div>
 </body>
+
 </html>
